@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+      <div class="card p-4 shadow-sm">
+        <div class="mb-3">
+          <%= @question %>
+        </div>
+        <div class="mb-3">
+          <strong>Answer:</strong>
+          <%= @answer %>
+        </div>
+        <div>
+          <%= link_to 'Ask another question', '/ask', class: "btn btn-primary" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
